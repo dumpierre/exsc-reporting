@@ -1,0 +1,107 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Daniel\Dropbox\aaQR studies\PRCabstract\logfile_abstractprc2017.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}15 Jun 2017, 13:48:59
+
+{com}. {txt}*(11 variables, 86 observations pasted into data editor)
+{com}
+. format %10.0g pmid
+
+. tab1 title medesig mehypo mepriou mesample meoblind reitt regist protoc
+
+{res}-> tabulation of title  
+
+      {txt}title {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         72       83.72       83.72
+{txt}          1 {c |}{res}         14       16.28      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of medesig  
+
+    {txt}medesig {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         21       24.42       24.42
+{txt}          1 {c |}{res}         65       75.58      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of mehypo  
+
+     {txt}mehypo {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         36       41.86       41.86
+{txt}          1 {c |}{res}         50       58.14      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of mepriou  
+
+    {txt}mepriou {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         64       74.42       74.42
+{txt}          1 {c |}{res}         22       25.58      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of mesample  
+
+   {txt}mesample {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         70       81.40       81.40
+{txt}          1 {c |}{res}         16       18.60      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of meoblind  
+
+   {txt}meoblind {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         63       73.26       73.26
+{txt}          1 {c |}{res}         23       26.74      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of reitt  
+
+      {txt}reitt {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         71       82.56       82.56
+{txt}          1 {c |}{res}         14       16.28       98.84
+{txt}          3 {c |}{res}          1        1.16      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of regist  
+
+     {txt}regist {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         66       76.74       76.74
+{txt}          1 {c |}{res}         20       23.26      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+-> tabulation of protoc  
+
+     {txt}protoc {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         80       93.02       93.02
+{txt}          1 {c |}{res}          6        6.98      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         86      100.00
+
+{com}. lof off
+{err}command {bf}lof{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+{com}. log off
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Daniel\Dropbox\aaQR studies\PRCabstract\logfile_abstractprc2017.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}15 Jun 2017, 22:20:17
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
